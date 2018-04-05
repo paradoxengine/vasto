@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"><head>
+
+<script type="text/javascript" src="./default.js"></script>
+<script type="text/javascript" src="./welcomeRes.js"></script>
+<script type="text/javascript" src="./watermark.js"></script>
+<script type="text/javascript" src="./dyndata.js"></script>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script type="text/javascript">document.write("<title>" + ID_EESX_Welcome + "</title>");</script><title>Welcome to VMware ESX Server HW</title>
+
+<link rel="stylesheet" href="/default.css" type="text/css">
+<link rel="stylesheet" href="/print.css" type="text/css" media="print" />
+
+<meta name="description" content="VMware ESX Server HW is virtual infrastructure software for partitioning, consolidating and managing systems in mission-critical environments. VMware ESX Server HW provides a highly scalable virtual machine platform with advanced resource management capabilities, which can be managed by VMware VirtualCenter.">
+</head><body>
+<div style="background-position: 0% 440px;" id="main">
+
+   <div id="header">
+      <h1>VMware ESX Server 3i</h1>
+      <h2>Welcome</h2>
+   </div>
+
+   <div id="body">
+      <div style="height: 513px;" id="content">
+         <h3>Getting Started</h3>
+
+	 <p><script type="text/javascript">document.write(ID_ESX_VIClientDesc);</script>If
+you need to access this host remotely, use the following program to
+install VMware Infrastructure client software. After running the
+installer, start the client and log in to this host.</p>
+
+	 <ul>
+	    <li><script type="text/javascript">
+               if (ID_ResourceLang != "en") {
+                  document.write('<a href="/client/VMware-viclient-global.exe">' + ID_DownloadVIClientL10n + '</a>');
+               } else {
+                  document.write('<a href="/client/VMware-viclient.exe">' + ID_DownloadVIClient + '</a>');
+               }
+            </script><a href="">Download VMware Infrastructure Client</a></li>
+	 </ul>
+
+	 <script type="text/javascript">
+            var c = ID_ESX_VCServerDesc;
+            var u = 'http://www.vmware.com/info?id=400';
+            var t = ID_DownloadVCServer;
+
+            if (null != ID_OemVcLink[ID_ResourceLang]) {
+               if (ID_OemVcLink[ID_ResourceLang].url.length > 0) {
+                  u = ID_OemVcLink[ID_ResourceLang].url;
+               }
+
+               if (ID_OemVcLink[ID_ResourceLang].context.length > 0) {
+                  c = ID_OemVcLink[ID_ResourceLang].context;
+               }
+
+               if (ID_OemVcLink[ID_ResourceLang].text.length > 0) {
+                  t = ID_OemVcLink[ID_ResourceLang].text;
+               }
+            }
+
+            document.write('<p>' + c + '</p>');
+            document.write('<ul><li><a href="' + u + '">' + t + '</a></li></ul>');
+         </script><p>To
+streamline your IT operations with VMware Infrastructure, use the
+following program to install VirtualCenter Server. VirtualCenter Server
+will help you consolidate and optimize workload distribution across ESX
+Server hosts, reduce new system deployment time from weeks to seconds,
+monitor your virtual computing environment around the clock, avoid
+service disruptions due to planned hardware maintenance or unexpected
+failure, centralize access control, and automate system administration
+tasks.</p><ul><li><a href="http://www.vmware.com/info?id=400">Download VMware VirtualCenter Server</a></li></ul>
+
+         <p><script type="text/javascript">document.write(ID_DocDesc);</script>If you need more help, please refer to our documentation library:</p>
+
+	 <ul>
+	    <li><a href="http://www.vmware.com/info?id=420"><script type="text/javascript">document.write(ID_DownloadDoc);</script>VMware Infrastructure 3 Documentation</a></li>
+	 </ul>
+
+	 <script type="text/javascript">
+            if (null != ID_OemLink[ID_ResourceLang]) {
+               document.write('<p>' + ID_OemLink[ID_ResourceLang].context + '</p>');
+               document.write('<ul><li><a href="' + ID_OemLink[ID_ResourceLang].url + '">'+ ID_OemLink[ID_ResourceLang].text +'</a></li></ul>');
+            }
+         </script>
+      </div>
+   </div>
+
+   <hr class="hide">
+
+   <div id="sidebar">
+      <h3><script language="javascript">document.write(ID_ForAdmins);</script>For Administrators</h3>
+
+      <h4><script language="javascript">document.write(ID_VIRCLI);</script>VMware Infrastructure Remote Command Line</h4>
+
+
+      <p><script language="javascript">document.write(ID_VIRCLIDesc);</script>The
+Remote Command Line allows you to use command line tools to manage
+VMware Infrastructure from a client machine. These tools can be used in
+shell scripts to automate day-to-day operations.</p>
+
+      <ul>
+	 <li><script language="javascript">document.write('<a href="http://www.vmware.com/info?id=401">'+ ID_DownloadVIRCLIAppliance +'</a>');</script><a href="http://www.vmware.com/info?id=401">Download the Virtual Appliance</a></li>
+	 <li><script language="javascript">document.write('<a href="http://www.vmware.com/info?id=453">'+ ID_DownloadVIRCLIWindows +'</a>');</script><a href="http://www.vmware.com/info?id=453">Download the Windows Installer (exe)</a></li>
+	 <li><script language="javascript">document.write('<a href="http://www.vmware.com/info?id=454">'+ ID_DownloadVIRCLILinux +'</a>');</script><a href="http://www.vmware.com/info?id=454">Download the Linux Installer (tar.gz)</a></li>
+      </ul>
+
+      <h4><script language="javascript">document.write(ID_VIDatacenters);</script>Web-Based Datastore Browser</h4>
+
+
+      <p><script language="javascript">document.write(ID_VIDatacentersDesc);</script>Use your web browser to find and download files (for example, virtual machine and virtual disk files).</p>
+
+      <ul>
+	 <li><script language="javascript">document.write('<a href="/folder?dcPath=ha-datacenter">'+ ID_BrowseHostDatastores +'</a>');</script><a href="">Browse datastores in this host's inventory</a></li>
+      </ul>
+
+      <h3><script type="text/javascript">document.write(ID_ForDevs);</script>For Developers</h3>
+
+      <h4><script type="text/javascript">document.write(ID_VISDK);</script>VMware Infrastructure SDK</h4>
+
+      <p><script type="text/javascript">document.write(ID_VISDKDesc);</script>The
+VMware Infrastructure SDK package contains interface definitions,
+detailed documentation and sample code to help you write your own
+management programs.</p>
+
+      <ul>
+	 <li><script type="text/javascript">document.write('<a href="http://www.vmware.com/info?id=410">'+ ID_DownloadSDK +'</a>');</script><a href="http://www.vmware.com/info?id=410">Download the SDK</a></li>
+	 <li><script type="text/javascript">document.write('<a href="/mob/">'+ ID_BrowseHost +'</a>');</script><a href="">Browse objects managed by this host</a></li>
+      </ul>
+   </div>
+
+   <hr class="hide">
+
+   <div id="footer">
+      <p><script type="text/javascript">document.write(ID_CopyrightText);</script>Copyright
+© 1998-2008 VMware, Inc. All rights reserved. Protected by one or more
+U.S. Patent Nos. 6,397,242, 6,496,847, 6,704,925, 6,711,672, 6,725,289,
+6,735,601, 6,785,886, 6,789,156, 6,795,966, 6,880,022, 6,944,699,
+6,961,806, 6,961,941, 7,069,413, 7,082,598, 7,089,377, 7,111,086,
+7,111,145, 7,117,481, 7,149,843, 7,155,558, 7,222,221, 7,260,815,
+7,260,820, 7,269,683, 7,275,136, 7,277,998, 7,277,999, 7,278,030,
+7,281,102, and 7,290,253; patents pending.</p>
+
+      <p><script type="text/javascript">document.write(ID_TrademarkText);</script>VMware,
+the VMware “boxes” logo and design, Virtual SMP and VMotion are
+registered trademarks or trademarks of VMware, Inc. in the United
+States and/or other jurisdictions.</p>
+
+      <p><script type="text/javascript">document.write(ID_FooterEndMsg);</script>All other marks and names mentioned herein may be trademarks of their respective companies.</p>
+
+      <p><script type="text/javascript">document.write(ID_AboutOSSDesc);</script>VMware
+products may contain individual open source software components, each
+of which has its own copyright and applicable license conditions.
+Please visit <a href="http://www.vmware.com/info?id=402">http://<wbr>www<wbr>.<wbr>vmware<wbr>.com/<wbr>info<wbr>?id<wbr>=402</a> for more information.</p>
+   </div>
+</div>
+&nbsp;
+</body></html>

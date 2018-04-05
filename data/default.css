@@ -1,0 +1,306 @@
+/* Common ----------------------------------------------------------------- */
+
+body {
+	background-color: #999;
+	background-image: url(./background.jpeg);
+	background-position: top right;
+	background-repeat: repeat-x;
+	font-family: Verdana, sans-serif;
+	font-size: 76%;
+	margin: 0;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+h3 {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 140%;
+	font-weight: bold;
+	margin-top: 1.0em;
+	margin-bottom: 0.4em;
+	color: #600;
+	line-height: 1.2em;
+	letter-spacing: 0.25em;
+}
+
+h4 {
+	font-size: 100%;
+	margin: 0.8em 0 0.4em 0;
+	font-weight: bold;
+	color: #333;
+}
+
+p {
+	font-size: 100%;
+	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 2.8em;
+	margin-bottom: 0.68em;
+	margin-top: 0.34em;
+}
+
+ul li {
+	line-height: 1.3em;
+	padding-left: 1.3em;
+	background-image: url(./bullet.png);
+	background-position: 0.2em 0.5em;
+	background-repeat: no-repeat;
+	margin-bottom: 0.37em;
+	margin-left: -0.9em;
+}
+
+ul li h4 {
+	margin: 0;
+}
+
+ol {
+	margin-bottom: 0.68em;
+	margin-left: 1em;
+	padding-left: 3.2em;
+	margin-top: 0.34em;
+}
+
+ol li {
+	line-height: 1.3em;
+	margin-bottom: 0.37em;
+	padding-left: 0em;
+	margin-left: -1em;
+}
+
+dl {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1.0em;
+}
+
+dl dt {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	margin-top: 1.0em;
+	margin-bottom: 0.4em;
+	color: #369;
+	line-height: 1.2em;
+}
+
+dl dd {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+pre, code {
+	font-family: "Andale Mono", "Courier New", monospace;
+	font-size: 1em;
+}
+
+.hide {
+	display: none;
+}
+
+.guiLabel {
+	color: #333;
+	font-weight: bold;
+}
+
+.keyboard {
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+/* Links ------------------------------------------------------------------ */
+
+a:link {
+	color: #06f;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #69c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f90;
+	text-decoration: none;
+}
+
+
+/* Main Container --------------------------------------------------------- */
+
+#main {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+  	width: 720px;
+  	border: 4px solid #000;
+  	background: #fff;
+	background-image: url(./watermark.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+/* Left Column ------------------------------------------------------------ */
+
+#main #body {
+	float: left;
+	width: 460px;
+}
+
+#content {
+	margin: 1.0em 0 3.0em 0;
+	padding: 0 1.5em;
+}
+
+#content ul {
+	margin-top: 1.0em;
+}
+
+
+/* Right Column ----------------------------------------------------------- */
+
+#sidebar {
+	position: relative;
+	width: 260px;
+	float: right;
+	margin: 0;
+	margin-top: 0.8em;
+	margin-bottom: 2.4em;
+	padding: 0;
+	font-size: 90%;
+	line-height: 1.5em;
+	color: #333;
+	background-color: #fff;
+	
+}
+
+#sidebar h3 {
+	color: #000;
+	font-family: Verdana, sans-serif;
+	background-color: #fff;
+	font-size: 100%;
+	margin: 1.0em 0 0.5em 0;
+	font-weight: bold;
+	text-transform: none;
+	padding: 0.4em 0.5em;
+	border-bottom: solid 1px #000;
+	letter-spacing: normal;
+}
+
+#sidebar h4 {
+	font-family: Verdana, sans-serif;
+	font-size: 100%;
+	margin: 1.0em 0.5em 0.2em 0.5em;
+	font-weight: bold;
+	text-transform: none;
+	padding: 0;
+	color: #600;
+}
+
+#sidebar p {
+	margin: 0.4em 0.6em 0.2em 0.5em;
+}
+
+#sidebar li {
+	margin-right: 0.5em;
+}
+
+
+#sidebar dl {
+	margin: 0 0.5em 1.1em 0.5em;
+}
+
+#sidebar dl dt {
+	font-family: Verdana, sans-serif;
+	font-size: 100%;
+	color: #930;
+	margin-bottom: 0;
+	margin-top: 1.0em;
+}
+
+#sidebar dl dd.tenure {
+	margin: 0;
+	color: #930;
+	line-height: normal;
+	margin-bottom: 0.25em;
+}
+
+#sidebar dl dd {
+	line-height: 1.2em;
+	margin-top: 0;
+}
+
+#sidebar ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.3em;
+	margin-bottom: 0;
+	margin-top: 0.34em;
+}
+
+#sidebar ul li {
+	line-height: 1.3em;
+	padding-left: 1.3em;
+	background-image: url(./bullet.png);
+	background-position: 0.2em 0.5em;
+	background-repeat: no-repeat;
+	margin-bottom: 0.37em;
+	margin-left: -0.9em;
+}
+
+
+/* Footer ----------------------------------------------------------------- */
+
+#footer {
+	position: relative;
+	clear: both;
+	margin: 0;
+	padding: 1.0em;
+	font-size: 90%;
+	color: #69c;
+	background: #000;
+}
+
+#footer p {
+	padding: 0;
+	margin-left: 0.5em;
+}
+
+
+/* Header ----------------------------------------------------------------- */
+
+#header {
+	background-color: #596d86;
+	background-image: url(./banner.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	padding: 1.0em;
+	padding-top: 1.6em;
+	border-bottom: solid 2px #000;
+}
+
+#header h1 {
+	color: #fff;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 200%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.25em;
+}
+
+#header h2 {
+	color:	#fff;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 175%;
+	font-weight: normal;
+	margin: 0.2em 0 0.1em 0;
+	letter-spacing: 0.15em;
+}
